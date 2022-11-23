@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - DemoServiceTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>DemoServiceTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.techforum.api.restapidemo.html">com.techforum.api.restapidemo</a> &gt; DemoServiceTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">3</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.025s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Method name</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">DELETE - deleteBillionair - Billionair deleted successfully!</td>
+<td class="success">deleteBillionairSuccessTest()</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">GET - getBillionairById FAILURE - Billionair NOT recieved for provided ID</td>
+<td class="success">getBillionairByIdFailedTest()</td>
+<td class="success">0.013s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">GET - getBillionairById Success - Billionair got from provided ID</td>
+<td class="success">getBillionairByIdSuccessTest()</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>2022-11-23 08:40:21.094  INFO 8472 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.techforum.api.restapidemo.DemoServiceTest], using SpringBootContextLoader
+2022-11-23 08:40:21.096  INFO 8472 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.techforum.api.restapidemo.DemoServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-11-23 08:40:21.097  INFO 8472 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.techforum.api.restapidemo.DemoServiceTest]: DemoServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-11-23 08:40:21.100  INFO 8472 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.techforum.api.restapidemo.RestapidemoApplication for test class com.techforum.api.restapidemo.DemoServiceTest
+2022-11-23 08:40:21.102  INFO 8472 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-11-23 08:40:21.102  INFO 8472 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@33c5d394, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1dafd3a4, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@73b314ea, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1074d27a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@db0fa93, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6ee12a72, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@51e6700, org.springframework.test.context.event.EventPublishingTestExecutionListener@334f82db, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@39219243, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5e748daf, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@28a4c706, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6732d193, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@5234e4bc, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@28d712a0]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.1.RELEASE)
+
+2022-11-23 08:40:21.137  INFO 8472 --- [    Test worker] c.t.api.restapidemo.DemoServiceTest      : Starting DemoServiceTest on LIN51009485 with PID 8472 (started by bkurmi in C:\Users\bkurmi\IdeaProjects\restapidemo)
+2022-11-23 08:40:21.137  INFO 8472 --- [    Test worker] c.t.api.restapidemo.DemoServiceTest      : No active profile set, falling back to default profiles: default
+2022-11-23 08:40:21.494  INFO 8472 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2022-11-23 08:40:21.502  INFO 8472 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8ms. Found 0 JPA repository interfaces.
+2022-11-23 08:40:21.741  INFO 8472 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-23 08:40:21.744  INFO 8472 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2022-11-23 08:40:21.745  INFO 8472 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2022-11-23 08:40:21.765  INFO 8472 --- [         task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-23 08:40:21.778  INFO 8472 --- [         task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-11-23 08:40:21.799  INFO 8472 --- [         task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-23 08:40:21.800  INFO 8472 --- [         task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-23 08:40:21.922  WARN 8472 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-23 08:40:22.289  INFO 8472 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-11-23 08:40:22.358  INFO 8472 --- [    Test worker] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2022-11-23 08:40:22.372  INFO 8472 --- [    Test worker] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2022-11-23 08:40:22.374  INFO 8472 --- [    Test worker] c.t.api.restapidemo.DemoServiceTest      : Started DemoServiceTest in 1.27 seconds (JVM running for 8.834)
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.4.1</a> at 23-Nov-2022, 8:40:24 AM</p>
+</div>
+</div>
+</body>
+</html>
